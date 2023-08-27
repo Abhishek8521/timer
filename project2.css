@@ -1,0 +1,138 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    overflow: hidden;
+}
+
+#cursor
+{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.3s;
+}
+
+#page1
+{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFFFFF;
+}
+
+#navbar
+{
+    height: 20vh;
+    width: 100vw;
+    background-color: transparent;
+    padding: 3vw 3vw;
+   
+    
+}
+
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav h2
+{
+    font-size: 1.7vw;
+    font-weight: 800;
+}
+.nav-part1
+{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+
+}
+.nav-part1 h4
+{
+    font-size: 1.6vw;
+    font-weight: 100;
+}
+.nav-part1 i
+{
+    font-size: 1.4vw;
+    font-weight: 100;
+}
+#page1 h3
+{
+    font-size: 9vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    margin-left: 8vw;
+    letter-spacing: 5px;
+    
+    
+}
+#red span{
+    color: red;
+}
+
+
+#page1 span
+{
+    height: 80px;
+    width: 70px;
+    
+}
+
+#page1 span video
+{  
+   height: 10vw;
+   width: 10vw;
+   border-radius: 50px;
+   
+    
+    
+}
+#page1 h3{ 
+    display: flex;
+    gap: 160px;
+}
+
+#page2
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+
+#page2 video
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+#page3
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+#page3 img
+{
+    height: 30px;
+    color: red;
+}
